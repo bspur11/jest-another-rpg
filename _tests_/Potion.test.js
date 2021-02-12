@@ -6,12 +6,10 @@ test('creates a random potion object', () => {
   expect(potion.value).toEqual(expect.any(Number));
 });
 
+
+
+const Player = require('../lib/Player.js');
 const Potion = require('../lib/Potion.js');
 
-// test('creates a health potion object', () => {
-//   const potion = new Potion('health');
 
-//   expect(potion.name).toBe('health');
-//   expect(potion.value).toEqual(expect.any(Number));
-// });
 
